@@ -886,7 +886,7 @@ textarea#comments {
 
 .team-member ul.social-buttons > li {
 	margin-top: 50%;
-	position: relative;
+	position: center;
 	top: -20px;
 }
 
@@ -1016,26 +1016,25 @@ footer span.copyright {
 	line-height:40px
 }
 
-ul.social-buttons {
-	float: right ;
+ul.social-buttons { 
 	margin-top:5px;
 	text-align: center;
 }
 
 ul.social-buttons li a {
-	display: block;
-	width: 40px;
-	height: 40px;
-	border-radius: 0%;
-	border: 2px solid #fff;
-	font-size: 16px;
-	line-height: 36px;
-	outline: 0;
-	color: #fff;
-	background-color: rgba(71, 69, 80, 0.0);
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	transition: all .3s;
+	 border-radius: 50%;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    max-width: 50px;
+    max-height: 50px;
+    left: 0px;
+    display: inline-block;
+    position: relative;
+    text-align: center; 
+    top: 0px;
 }
 
 ul.social-buttons li a.twitter {
@@ -2342,7 +2341,7 @@ img.mfp-img {
 
 	.navbar-default.navbar-shrink {
 		padding:0;
-		background-color: #f6f6f6;
+		
 		-webkit-transition:all .5s ease-in-out;
 		-moz-transition:all .5s ease-in-out;
 		-o-transition:all .5s ease-in-out;
@@ -2352,12 +2351,12 @@ img.mfp-img {
 	}
 
 	.navbar-default.navbar-shrink .nav li a {
-		color: #202c2f;
+		color: #D2691E;
 	}
 
 	.navbar-default.navbar-shrink .navbar-brand {
 		margin-top: 10px;
-		color: #202c2f;
+		color: #D2691E;
 	}
 
 	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
@@ -2398,7 +2397,7 @@ img.mfp-img {
 		font-size: 16px;
 	}
 }
-.social-roll {
+    .social-roll {
     border-radius: 50%;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;

@@ -90,6 +90,7 @@ h1,h2,h3,h4,h5,h6 {
 	background-position: center center;
 	background-repeat: repeat;
 	color: #F6FAFB;	
+	
 }
 
 .divider-wrapper .text-muted, .divider-wrapper.opaqued.text-muted, .divider-wrapper.opaqued-alt .text-muted {
@@ -450,7 +451,9 @@ section {
 .section-inner {
 	padding: 40px 0;
 }
-
+.section-innerb {
+	padding: 10px 0;
+}
 section h2.section-heading {
 	margin-top:0;
 	margin-bottom:0px;
@@ -886,7 +889,7 @@ textarea#comments {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(255,255,255, 0.8);
+	background-color: #F6FAFB;
 	margin: 0;
 	margin-bottom: 0%;
 	-webkit-transition: all .3s;

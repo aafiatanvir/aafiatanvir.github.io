@@ -29,7 +29,10 @@
 
     <!-- jQuery -->
     <script src="assets/js/jquery.js"></script>
-
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	
+	<!-- fancybox -->
+	<link href="https://fancyapps.com/fancybox/source/jquery.fancybox.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -37,7 +40,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         $(document).ready(function(){
            'use strict';
         jQuery('#headerwrap').backstretch([
@@ -63,7 +66,7 @@
             longitude: -73.9863,
             zoom: 14 });
     });
-    </script>
+    </script>-->
 
 </head>
 
@@ -103,9 +106,7 @@
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle " data-hover="dropdown" data-toggle="dropdown">Professional <span ></span></a>
                         
-                    </li>
-
-                    
+                    </li> 
 
                     <li class="dropdown">
                         <a href="" class="dropdown-toggle " data-hover="dropdown" data-toggle="dropdown">Personal <span ></span></a>
@@ -135,7 +136,7 @@
    
                 <!-- Portfolio Section -->
 
-    <section id="filterable-portfolio">
+    <!-- <section id="filterable-portfolio">
        <div class="section-inner">
             <div class="container">
                 
@@ -149,10 +150,10 @@
                         <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".video">Video</a></li>
                     </ul><!--/#portfolio-filter-->
                      
-                    <ul class="portfolio-items col-3 isotope direction-aware">
+                    <!-- <ul class="portfolio-items col-3 isotope direction-aware">
                         <li class="col-md-4 portfolio-item da-item antelope isotope-item">
-                            <a class="lb-link" href="assets/img/portfolio/dsc_5475.jpg" title="View Image">
-                                <img src="assets/img/portfolio/dsc_5475.jpg" class="img-responsive" alt="">
+                            <a class="lb-link" href="assets/img/portfolio/DSC_5475.jpg" title="View Image">
+                                <img src="assets/img/portfolio/DSC_5475.jpg" class="img-responsive" alt="">
                                 <div>
                                     <div class="portfolio-hover-content">
                                         <i class="pe-7s-close fa-3x"></i>
@@ -161,8 +162,8 @@
                             </a>
                         </li>
                         <li class="col-md-4 portfolio-item da-item antelope isotope-item">
-                            <a class="lb-link" href="assets/img/portfolio/dsc_5473.jpg" title="View Image">
-                                <img src="assets/img/portfolio/dsc_5473.jpg" class="img-responsive" alt="">
+                            <a class="lb-link" href="assets/img/portfolio/DSC_5473.jpg" title="View Image">
+                                <img src="assets/img/portfolio/DSC_5473.jpg" class="img-responsive" alt="">
                                 <div>
                                     <div class="portfolio-hover-content">
                                         <i class="pe-7s-close fa-3x"></i>
@@ -171,8 +172,8 @@
                             </a>
                         </li>
                             <li class="col-md-4 portfolio-item da-item antelope isotope-item">
-                            <a class="lb-link" href="assets/img/portfolio/dsc_5469.jpg" title="View Image">
-                                <img src="assets/img/portfolio/dsc_5469.jpg" class="img-responsive" alt="">
+                            <a class="lb-link" href="assets/img/portfolio/DSC_5469.jpg" title="View Image">
+                                <img src="assets/img/portfolio/DSC_5469.jpg" class="img-responsive" alt="">
                                 <div>
                                     <div class="portfolio-hover-content">
                                         <i class="pe-7s-close fa-3x"></i>
@@ -181,8 +182,8 @@
                             </a>
                         </li> 
                         <li class="col-md-4 portfolio-item da-item antelope isotope-item">
-                            <a class="lb-link" href="assets/img/portfolio/dsc_5476.jpg" title="View Image">
-                                <img src="assets/img/portfolio/dsc_5476.jpg" class="img-responsive" alt="">
+                            <a class="lb-link" href="assets/img/portfolio/DSC_5476.jpg" title="View Image">
+                                <img src="assets/img/portfolio/DSC_5476.jpg" class="img-responsive" alt="">
                                 <div>
                                     <div class="portfolio-hover-content">
                                         <i class="pe-7s-close fa-3x"></i>
@@ -191,8 +192,8 @@
                             </a>
                         </li>
                             <li class="col-md-4 portfolio-item da-item antelope isotope-item">
-                            <a class="lb-link" href="assets/img/portfolio/dsc_5492.jpg" title="View Image">
-                                <img src="assets/img/portfolio/dsc_5492.jpg" class="img-responsive" alt="">
+                            <a class="lb-link" href="assets/img/portfolio/DSC_5492.jpg" title="View Image">
+                                <img src="assets/img/portfolio/DSC_5492.jpg" class="img-responsive" alt="">
                                 <div>
                                     <div class="portfolio-hover-content">
                                         <i class="pe-7s-close fa-3x"></i>
@@ -201,8 +202,8 @@
                             </a>
                         </li>
                         <li class="col-md-4 portfolio-item da-item antelope isotope-item">
-                            <a class="lb-link" href="assets/img/portfolio/dsc_56999.jpg" title="View Image">
-                                <img src="assets/img/portfolio/dsc_56999.jpg" class="img-responsive" alt="">
+                            <a class="lb-link" href="assets/img/portfolio/DSC_56999.jpg" title="View Image">
+                                <img src="assets/img/portfolio/DSC_56999.jpg" class="img-responsive" alt="">
                                 <div>
                                     <div class="portfolio-hover-content">
                                         <i class="pe-7s-close fa-3x"></i>
@@ -212,8 +213,8 @@
                         </li>
                           
                         <li class="col-md-4 portfolio-item da-item antelope isotope-item">
-                            <a class="lb-link" href="assets/img/portfolio/dsc_5624.jpg" title="View Image">
-                                <img src="assets/img/portfolio/dsc_5624.jpg" class="img-responsive" alt="">
+                            <a class="lb-link" href="assets/img/portfolio/DSC_5624.jpg" title="View Image">
+                                <img src="assets/img/portfolio/DSC_5624.jpg" class="img-responsive" alt="">
                                 <div>
                                     <div class="portfolio-hover-content">
                                         <i class="pe-7s-close fa-3x"></i>
@@ -222,8 +223,8 @@
                             </a>
                         </li>
                             <li class="col-md-4 portfolio-item da-item antelope isotope-item">
-                            <a class="lb-link" href="assets/img/portfolio/dsc_5630.jpg" title="View Image">
-                                <img src="assets/img/portfolio/dsc_5630.jpg" class="img-responsive" alt="">
+                            <a class="lb-link" href="assets/img/portfolio/DSC_5630.jpg" title="View Image">
+                                <img src="assets/img/portfolio/DSC_5630.jpg" class="img-responsive" alt="">
                                 <div>
                                     <div class="portfolio-hover-content">
                                         <i class="pe-7s-close fa-3x"></i>
@@ -232,8 +233,8 @@
                             </a>
                         </li>
                         <li class="col-md-4 portfolio-item da-item antelope isotope-item">
-                            <a class="lb-link" href="assets/img/portfolio/dsc_5625.jpg" title="View Image">
-                                <img src="assets/img/portfolio/dsc_5625.jpg" class="img-responsive" alt="">
+                            <a class="lb-link" href="assets/img/portfolio/DSC_5625.jpg" title="View Image">
+                                <img src="assets/img/portfolio/DSC_5625.jpg" class="img-responsive" alt="">
                                 <div>
                                     <div class="portfolio-hover-content">
                                         <i class="pe-7s-close fa-3x"></i>
@@ -246,7 +247,59 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+<div class="container" style="text-align:center">
+	<div class="filters filter-button-group">
+		  <ul><h4>
+		    <li class="active" data-filter="*">All</li>
+		    <li data-filter=".antelope">Antelope Canyon</li>
+		    <li data-filter=".zion">Zion Park</li>
+		    <li data-filter=".brand">Brand Identity</li>
+		  </h4></ul>
+		</div>
+
+		<div class="content grid">
+
+		  <div class="single-content antelope zion grid-item">
+				<a class="fancybox" href="assets/img/portfolio/DSC_5475.jpg.jpg"><img class="p2" src="assets/img/portfolio/DSC_5475.jpg"></a>
+		  </div>
+
+		  <div class="single-content brand antelope grid-item">
+				<a class="fancybox" href="assets/img/portfolio/DSC_5473.jpg"><img class="p2" src="assets/img/portfolio/DSC_5473.jpg"></a>
+		  </div>
+
+		  <div class="single-content brand grid-item">
+				<a class="fancybox" href="assets/img/portfolio/DSC_5469.jpg"><img class="p2" src="assets/img/portfolio/DSC_5469.jpg"></a>
+		  </div>
+            
+            <div class="single-content antelope grid-item">
+				<a class="fancybox" href="assets/img/portfolio/DSC_5476.jpg"><img class="p2" src="assets/img/portfolio/DSC_5476.jpg"></a>
+		  </div>
+            
+            <div class="single-content antelope grid-item">
+				<a class="fancybox" href="assets/img/portfolio/DSC_5492.jpg"><img class="p2" src="assets/img/portfolio/DSC_5492.jpg"></a>
+		  </div>
+            
+            <div class="single-content antelope brand grid-item">
+				<a class="fancybox" href="assets/img/portfolio/DSC_56999.jpg"><img class="p2"src="assets/img/portfolio/DSC_56999.jpg"></a>
+		  </div>
+            
+          <div class="single-content antelope grid-item">
+				<a class="fancybox" href="assets/img/portfolio/DSC_5624.jpg"><img class="p2" src="assets/img/portfolio/DSC_5624.jpg"></a>
+		  </div>
+            
+          <div class="single-content brand  grid-item">
+				<a class="fancybox" href="assets/img/portfolio/DSC_5630.jpg"><img class="p2"src="assets/img/portfolio/DSC_5630.jpg"></a>
+		  </div>
+		  <div class="single-content antelope zion grid-item">
+				<a class="fancybox" href="assets/img/portfolio/DSC_5625.jpg"><img class="p2" src="assets/img/portfolio/DSC_5625.jpg"></a>
+		  </div>
+
+		 			
+            
+        
+        </div>
+	</div>
      
  
      <style>
@@ -255,6 +308,70 @@
   left: 50%;
   bottom: 20%;
 }
+
+#portfolio p {
+	color: grey;
+	font-size: 12px;
+	font-weight: 200;
+}
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+
+.single-content img {
+	width: 350px;
+	height: 100%;
+	margin: 10px;
+}
+
+.filters {
+	width: 100%;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	padding: 20px 0;
+}
+
+li {
+	display: inline;
+	padding: 10px 25px;
+	font-size: 14px;
+	color: #636363;
+	font-weight: 400;
+	cursor: pointer;
+  	text-transform: uppercase;
+  	letter-spacing: .2em;
+}
+
+li:hover {
+	color: #a6a6a6;
+}
+
+li.active {
+	color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+}
+@media screen and (max-width:600px){
+
+li {
+	display:block !important;
+	padding: 10px 25px;
+	font-size: 14px;
+	color: #636363;
+	font-weight: 400;
+	cursor: pointer;
+  	text-transform: uppercase;
+  	letter-spacing: .2em;
+}
+}
+
 </style>
  
                 
@@ -286,6 +403,29 @@
 
     <!-- Custom JavaScript -->
     <script src="assets/js/init.js"></script>
+	<!-- fancybox -->
+    <script src="https://fancyapps.com/fancybox/source/jquery.fancybox.js"></script>
+	
+	
+	
+
+<script>
+ $(document).ready( function() {   
+
+$('.grid').isotope({
+  itemSelector: '.grid-item',
+});
+
+// filter items on button click
+$('.filter-button-group').on( 'click', 'li', function() {
+  var filterValue = $(this).attr('data-filter');
+  $('.grid').isotope({ filter: filterValue });
+  $('.filter-button-group li').removeClass('active');
+  $(this).addClass('active');
+});
+	$('.fancybox').fancybox();
+    });
+</script>
 
 </body>
 
